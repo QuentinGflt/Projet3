@@ -12,8 +12,8 @@
     width: 100vw;
     height: 100vh;
     position: absolute;
-    overflow-y: hidden;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 nav{
@@ -499,9 +499,9 @@ nav .cart :hover{
 }
 
 @media (max-width:425px){
-    .container{
-        overflow-y: scroll
-    }
+        .container{
+            overflow-y: scroll;
+        }
 
         .content .pack1{
                 width: 100vw;
